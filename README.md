@@ -17,11 +17,11 @@ This application provides a complete pipeline for image analysis and manipulatio
    - Histogram equalization
 
 3. **Color Quantization** (TP3)
-   - K-means based color reduction
+   - K-means-based color reduction
    - Quantized histogram visualization
 
 4. **Convolution Filters** (TP4)
-   - 15+ filters including Gaussian, median, Sobel
+   - 15+ filters including Gaussian, median, and Sobel
    - Edge detection and enhancement
 
 5. **Edge Detection** (TP5)
@@ -57,4 +57,38 @@ This application provides a complete pipeline for image analysis and manipulatio
 2. Run the app: `streamlit run app.py`
 3. Upload an image/video and explore the modules
 
-*Note: The code is organized by TP (Travaux Pratiques) modules, each focusing on specific image processing concepts.*
+## ⚙️ Technologies
+
+**Core Stack:**
+- ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) Python 3.7+
+- ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=Streamlit&logoColor=white) Streamlit (Web Interface)
+- ![OpenCV](https://img.shields.io/badge/OpenCV-27338e?style=flat&logo=OpenCV&logoColor=white) OpenCV (Image Processing)
+- ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white) NumPy (Array Operations)
+
+**Visualization:**
+- ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat&logo=Python&logoColor=white) Matplotlib (Plots/Charts)
+- ![Pillow](https://img.shields.io/badge/Pillow-3776AB?style=flat&logo=Python&logoColor=white) Pillow (Image Handling)
+
+## 📜 License
+
+MIT License
+
+Copyright (c) 2025 Abdelkrim Touat
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS ARE LIABLE FOR ANY CLAIM, DAMAGE, OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
